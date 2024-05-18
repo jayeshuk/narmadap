@@ -18,7 +18,6 @@ import MapStyles from './MapStyles';
 /**
  * You need to fill in a Google API Key that enables the Direction API.
  */
-const GOOGLE_API_KEY = 'AIzaSyDJeMB0dTCrRR9pCqX91jrsUAEtrOl8kcc';
 
 /**
  * Set to true to use the controls methods instead of props
