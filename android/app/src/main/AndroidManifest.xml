@@ -1,6 +1,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Permissions for accessing internet -->
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permission for accessing network state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission for accessing device location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <!-- Permission for accessing device camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Other permissions as needed -->
+    <!-- Example: Permission for writing to external storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <!-- Add more permissions as required by your app -->
 
     <application
       android:name=".MainApplication"
@@ -21,5 +38,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDJeMB0dTCrRR9pCqX91jrsUAEtrOl8kcc"/>
     </application>
 </manifest>

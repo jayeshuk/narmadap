@@ -5,6 +5,9 @@ require Pod::Executable.execute_command('node', ['-p',
     {paths: [process.argv[1]]},
   )', __dir__]).strip
 
+  # React Native Permissions
+permissions_path = '../node_modules/react-native-permissions/ios'
+pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
 

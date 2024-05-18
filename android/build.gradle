@@ -8,6 +8,13 @@ buildscript {
         kotlinVersion = "1.8.0"
     }
     repositories {
+        ivy {
+            name = "OsmAndBinariesIvy"
+            url = "https://creator.osmand.net"
+            patternLayout {
+                artifact "ivy/[organisation]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]"
+            }
+        }
         google()
         mavenCentral()
     }
