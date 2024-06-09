@@ -12,8 +12,29 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		274D4D8F7B884DCAB68587BB /* ParikramaRoute11.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0BE79FFBD2D446C2940B0E2A /* ParikramaRoute11.gpx */; };
+		3912F918581749F28B65CD07 /* ParikramaRoute1-10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3E9B409CF08D4A1396B5E162 /* ParikramaRoute1-10.gpx */; };
+		4D94AD126AFD43E082874840 /* navicon_96.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2D1295B3B14B12B0D74889 /* navicon_96.png */; };
+		4E52CD0021624F848CE35999 /* navicon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D7D39DF2C4FA2989BD6A6 /* navicon_72.png */; };
+		5EA18B7D2EB14A11882F6DF6 /* ParikramaRoute5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 565F8B7A57284E3DB63B76BE /* ParikramaRoute5.gpx */; };
+		632C9F390D1E46598E40C886 /* output1-10.json in Resources */ = {isa = PBXBuildFile; fileRef = A76DAB5202C742788B77BA08 /* output1-10.json */; };
+		723628910E24404EBB0056D9 /* ParikramaRoute6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 792EA677012841E69792C8ED /* ParikramaRoute6.gpx */; };
 		7699B88040F8A987B510C191 /* libPods-narmadap-narmadapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-narmadap-narmadapTests.a */; };
+		7EA7FCDAF3B14AB8BBE0F249 /* ParikramaRoute8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DBCD7D4E05946E5A767B16E /* ParikramaRoute8.gpx */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8354A8F8B0344F3AA2CC0147 /* output11-12.json in Resources */ = {isa = PBXBuildFile; fileRef = BB539455E1A84B9B939FDA6B /* output11-12.json */; };
+		88AF7CEAA9C244D694E7B97F /* ParikramaRoute4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 594497ED8CE348A6BFB8BF01 /* ParikramaRoute4.gpx */; };
+		8930B3221AB34173923CE16E /* output.ts in Resources */ = {isa = PBXBuildFile; fileRef = 7384CA7AEA3146D6AC3F499D /* output.ts */; };
+		90AAF33ACA8C44BAB9D01518 /* ParikramaRoute12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 470058A7FECC420EB260B81A /* ParikramaRoute12.gpx */; };
+		9F0298EC7DB1418D8C6918D4 /* ParikramaRoute7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CB6EED25D39742A79E5D96EB /* ParikramaRoute7.gpx */; };
+		B39ADE79A09A4570B2FE2847 /* ParikramaRoute1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DF4F7649E7B4489D98E32A60 /* ParikramaRoute1.gpx */; };
+		B7D3D577F2334D7AA08A211A /* ParikramaRoute9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAD3B443C64B7EAF3A8A11 /* ParikramaRoute9.gpx */; };
+		BB9691780D7B483E83F71B14 /* ParikramaRoute11-12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 782FBC0D8A044CFA93FF0E95 /* ParikramaRoute11-12.gpx */; };
+		D215C881F29942CEB0BDFCB4 /* navicon_48.png in Resources */ = {isa = PBXBuildFile; fileRef = E6AB275B4406454CA8675221 /* navicon_48.png */; };
+		DCE3FB640945410695ADFE86 /* ParikramaRoute10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A646DE912B544D15A5526EE3 /* ParikramaRoute10.gpx */; };
+		E21820FF1DA54581825225A6 /* ParikramaRoute3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 374B940E73B74BDBA4642AF7 /* ParikramaRoute3.gpx */; };
+		EC148FB7232C4676A78401C6 /* ParikramaRoute2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D209929389554F5E91A35349 /* ParikramaRoute2.gpx */; };
+		EFDEFADFDB18449C83AA7AB2 /* mapstyle.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB7D6926AE64752A7D21D8C /* mapstyle.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +51,7 @@
 		00E356EE1AD99517003FC87E /* narmadapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = narmadapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* narmadapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = narmadapTests.m; sourceTree = "<group>"; };
+		0BE79FFBD2D446C2940B0E2A /* ParikramaRoute11.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute11.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute11.gpx; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* narmadap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = narmadap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = narmadap/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = narmadap/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,12 +59,32 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = narmadap/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = narmadap/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-narmadap-narmadapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-narmadap-narmadapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		374B940E73B74BDBA4642AF7 /* ParikramaRoute3.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute3.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute3.gpx; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-narmadap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narmadap.debug.xcconfig"; path = "Target Support Files/Pods-narmadap/Pods-narmadap.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9B409CF08D4A1396B5E162 /* ParikramaRoute1-10.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ParikramaRoute1-10.gpx"; path = "../src/assets/gpx/narmada_composite/ParikramaRoute1-10.gpx"; sourceTree = "<group>"; };
+		470058A7FECC420EB260B81A /* ParikramaRoute12.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute12.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute12.gpx; sourceTree = "<group>"; };
+		565F8B7A57284E3DB63B76BE /* ParikramaRoute5.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute5.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute5.gpx; sourceTree = "<group>"; };
+		567D7D39DF2C4FA2989BD6A6 /* navicon_72.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = navicon_72.png; path = ../src/assets/images/navicon_72.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-narmadap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narmadap.release.xcconfig"; path = "Target Support Files/Pods-narmadap/Pods-narmadap.release.xcconfig"; sourceTree = "<group>"; };
+		594497ED8CE348A6BFB8BF01 /* ParikramaRoute4.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute4.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute4.gpx; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-narmadap-narmadapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narmadap-narmadapTests.debug.xcconfig"; path = "Target Support Files/Pods-narmadap-narmadapTests/Pods-narmadap-narmadapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-narmadap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-narmadap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7384CA7AEA3146D6AC3F499D /* output.ts */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = output.ts; path = ../src/assets/gpx/narmada_composite/output.ts; sourceTree = "<group>"; };
+		782FBC0D8A044CFA93FF0E95 /* ParikramaRoute11-12.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ParikramaRoute11-12.gpx"; path = "../src/assets/gpx/narmada_composite/ParikramaRoute11-12.gpx"; sourceTree = "<group>"; };
+		792EA677012841E69792C8ED /* ParikramaRoute6.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute6.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute6.gpx; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = narmadap/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-narmadap-narmadapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narmadap-narmadapTests.release.xcconfig"; path = "Target Support Files/Pods-narmadap-narmadapTests/Pods-narmadap-narmadapTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BFAD3B443C64B7EAF3A8A11 /* ParikramaRoute9.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute9.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute9.gpx; sourceTree = "<group>"; };
+		8DBCD7D4E05946E5A767B16E /* ParikramaRoute8.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute8.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute8.gpx; sourceTree = "<group>"; };
+		A646DE912B544D15A5526EE3 /* ParikramaRoute10.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute10.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute10.gpx; sourceTree = "<group>"; };
+		A76DAB5202C742788B77BA08 /* output1-10.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "output1-10.json"; path = "../src/assets/json/output1-10.json"; sourceTree = "<group>"; };
+		BB539455E1A84B9B939FDA6B /* output11-12.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "output11-12.json"; path = "../src/assets/json/output11-12.json"; sourceTree = "<group>"; };
+		BC2D1295B3B14B12B0D74889 /* navicon_96.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = navicon_96.png; path = ../src/assets/images/navicon_96.png; sourceTree = "<group>"; };
+		BDB7D6926AE64752A7D21D8C /* mapstyle.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mapstyle.json; path = ../src/assets/json/mapstyle.json; sourceTree = "<group>"; };
+		CB6EED25D39742A79E5D96EB /* ParikramaRoute7.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute7.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute7.gpx; sourceTree = "<group>"; };
+		D209929389554F5E91A35349 /* ParikramaRoute2.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute2.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute2.gpx; sourceTree = "<group>"; };
+		DF4F7649E7B4489D98E32A60 /* ParikramaRoute1.gpx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ParikramaRoute1.gpx; path = ../src/assets/gpx/narmada_chunks/ParikramaRoute1.gpx; sourceTree = "<group>"; };
+		E6AB275B4406454CA8675221 /* navicon_48.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = navicon_48.png; path = ../src/assets/images/navicon_48.png; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +164,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B81964442CED40B8AF2E3B12 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +178,34 @@
 				00E356EE1AD99517003FC87E /* narmadapTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B81964442CED40B8AF2E3B12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF4F7649E7B4489D98E32A60 /* ParikramaRoute1.gpx */,
+				A646DE912B544D15A5526EE3 /* ParikramaRoute10.gpx */,
+				0BE79FFBD2D446C2940B0E2A /* ParikramaRoute11.gpx */,
+				470058A7FECC420EB260B81A /* ParikramaRoute12.gpx */,
+				D209929389554F5E91A35349 /* ParikramaRoute2.gpx */,
+				374B940E73B74BDBA4642AF7 /* ParikramaRoute3.gpx */,
+				594497ED8CE348A6BFB8BF01 /* ParikramaRoute4.gpx */,
+				565F8B7A57284E3DB63B76BE /* ParikramaRoute5.gpx */,
+				792EA677012841E69792C8ED /* ParikramaRoute6.gpx */,
+				CB6EED25D39742A79E5D96EB /* ParikramaRoute7.gpx */,
+				8DBCD7D4E05946E5A767B16E /* ParikramaRoute8.gpx */,
+				8BFAD3B443C64B7EAF3A8A11 /* ParikramaRoute9.gpx */,
+				3E9B409CF08D4A1396B5E162 /* ParikramaRoute1-10.gpx */,
+				782FBC0D8A044CFA93FF0E95 /* ParikramaRoute11-12.gpx */,
+				7384CA7AEA3146D6AC3F499D /* output.ts */,
+				BDB7D6926AE64752A7D21D8C /* mapstyle.json */,
+				A76DAB5202C742788B77BA08 /* output1-10.json */,
+				BB539455E1A84B9B939FDA6B /* output11-12.json */,
+				E6AB275B4406454CA8675221 /* navicon_48.png */,
+				567D7D39DF2C4FA2989BD6A6 /* navicon_72.png */,
+				BC2D1295B3B14B12B0D74889 /* navicon_96.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -243,6 +314,27 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B39ADE79A09A4570B2FE2847 /* ParikramaRoute1.gpx in Resources */,
+				DCE3FB640945410695ADFE86 /* ParikramaRoute10.gpx in Resources */,
+				274D4D8F7B884DCAB68587BB /* ParikramaRoute11.gpx in Resources */,
+				90AAF33ACA8C44BAB9D01518 /* ParikramaRoute12.gpx in Resources */,
+				EC148FB7232C4676A78401C6 /* ParikramaRoute2.gpx in Resources */,
+				E21820FF1DA54581825225A6 /* ParikramaRoute3.gpx in Resources */,
+				88AF7CEAA9C244D694E7B97F /* ParikramaRoute4.gpx in Resources */,
+				5EA18B7D2EB14A11882F6DF6 /* ParikramaRoute5.gpx in Resources */,
+				723628910E24404EBB0056D9 /* ParikramaRoute6.gpx in Resources */,
+				9F0298EC7DB1418D8C6918D4 /* ParikramaRoute7.gpx in Resources */,
+				7EA7FCDAF3B14AB8BBE0F249 /* ParikramaRoute8.gpx in Resources */,
+				B7D3D577F2334D7AA08A211A /* ParikramaRoute9.gpx in Resources */,
+				3912F918581749F28B65CD07 /* ParikramaRoute1-10.gpx in Resources */,
+				BB9691780D7B483E83F71B14 /* ParikramaRoute11-12.gpx in Resources */,
+				8930B3221AB34173923CE16E /* output.ts in Resources */,
+				EFDEFADFDB18449C83AA7AB2 /* mapstyle.json in Resources */,
+				632C9F390D1E46598E40C886 /* output1-10.json in Resources */,
+				8354A8F8B0344F3AA2CC0147 /* output11-12.json in Resources */,
+				D215C881F29942CEB0BDFCB4 /* navicon_48.png in Resources */,
+				4E52CD0021624F848CE35999 /* navicon_72.png in Resources */,
+				4D94AD126AFD43E082874840 /* navicon_96.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +672,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -648,7 +743,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -666,7 +764,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "narmadap" */ = {
 			isa = XCConfigurationList;
@@ -675,7 +773,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "narmadap" */ = {
 			isa = XCConfigurationList;
@@ -684,7 +782,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

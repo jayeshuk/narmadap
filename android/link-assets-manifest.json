@@ -1,0 +1,89 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute1.gpx",
+      "sha1": "9b6384419e7a04b30b7a65c231d947a1082089c0"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute10.gpx",
+      "sha1": "000e9b7b40bc343dc726189f9d19d605865c93f8"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute11.gpx",
+      "sha1": "06fbaa3d61618204cdd5d9a7690749cab3dbd6ea"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute12.gpx",
+      "sha1": "734f70003644caf2583381c8f750141d4a2455bb"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute2.gpx",
+      "sha1": "06b9b613958ce913020f73277bf7265076929bff"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute3.gpx",
+      "sha1": "5b19fa5ffe1a751e86bf91d5a8d798eab98e766a"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute4.gpx",
+      "sha1": "5e49fd84940e499a4536b2211ef103e946e1328a"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute5.gpx",
+      "sha1": "99ec075d70234cbd83a2def128f74d5e05a8d021"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute6.gpx",
+      "sha1": "548361e18c51aed689772bd73a73a28bfbc33bef"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute7.gpx",
+      "sha1": "c57c36b7f45138dc2cccdf5ad68427ea584b0aa7"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute8.gpx",
+      "sha1": "8e9ce41cf088d878626db04d55c06f6ec807e72d"
+    },
+    {
+      "path": "src/assets/gpx/narmada_chunks/ParikramaRoute9.gpx",
+      "sha1": "7fe8c546689d77f482e3c62ca33fa046d292dd2a"
+    },
+    {
+      "path": "src/assets/gpx/narmada_composite/ParikramaRoute1-10.gpx",
+      "sha1": "70ea9871fc704c6e7ba4190606f8aacc71d71db9"
+    },
+    {
+      "path": "src/assets/gpx/narmada_composite/ParikramaRoute11-12.gpx",
+      "sha1": "dabdd7ccb6ed1dfd143708040cdd40281a46102b"
+    },
+    {
+      "path": "src/assets/gpx/narmada_composite/output.ts",
+      "sha1": "a6d087cda3ba67636855f8d5fadb7ec335aa8024"
+    },
+    {
+      "path": "src/assets/images/navicon_48.png",
+      "sha1": "eb5a88ad7a4e422bd09dc15e5d8255f5a6ae84f6"
+    },
+    {
+      "path": "src/assets/images/navicon_72.png",
+      "sha1": "de9ee483db5e59226bbe39017e149e9a011b5f5c"
+    },
+    {
+      "path": "src/assets/images/navicon_96.png",
+      "sha1": "3dd2ccd48a0b06b18fbc447b67b0d7767580071e"
+    },
+    {
+      "path": "src/assets/json/mapstyle.json",
+      "sha1": "8e036cac0eff30e36fe1daaed5ea2d91c30d3b8d"
+    },
+    {
+      "path": "src/assets/json/output1-10.json",
+      "sha1": "15ef9068b3d83da9380efb0732730c54291d2df7"
+    },
+    {
+      "path": "src/assets/json/output11-12.json",
+      "sha1": "ecfd4c3a23ce361f3f9e56c90041b79e33ee9bc1"
+    }
+  ]
+}

@@ -1,66 +1,34 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import React, {useEffect, FC} from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { RootStackParamList } from './src/utilities/types';
+import { requestLocationPermission } from './src/utilities/utilityFunctions';
+import HomeScreen from './src/screens/HomeScreen';
+import MapScreen from './src/screens/MapScreen';
 
-import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+const Stack = createStackNavigator<RootStackParamList>();
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import MapLine from "./src/Map"
-import NewMap from "./src/NewMap"
-import MapLatest from "./src/MapLatest";
+const App: FC = () => {
 
+  useEffect(() => {
+    const checkPermission = async () => {
+      const isGranted = await requestLocationPermission();
+      if (!isGranted) {
+        console.log('Location permission not granted');
+      }
+    };
 
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+    checkPermission();
+  }, []);
 
   return (
-      <MapLine />
-      // <MapLatest />
-
-
-      // <NewMap /> DO NOT USE THIS
-    );
-}
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Map" component={MapScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
 
 export default App;
